@@ -1,17 +1,21 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8" %>
-<!DOCTYPE html>
+<%--
+  Created by IntelliJ IDEA.
+  User: admin
+  Date: 2023-01-17
+  Time: 오후 3:23
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title> bjm </title>
-
+    <title>Title</title>
 </head>
 <body>
+
 <center>
 
     <h2> login page</h2>
-    <form action="RequestLoginProc.jsp" method="post" >
+    <form action="ResponseLoginProc.jsp" method="post" >
         <table width="400" border="1">
 
             <tr height="60">
